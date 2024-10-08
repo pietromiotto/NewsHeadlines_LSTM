@@ -18,9 +18,11 @@ Furthermore, the project employs Truncated Backpropagation Through Time
 faster convergence. The project revolves around the solution of some
 questions.
 
-<div style="border: 2px solid #f39c12; background-color: #fdf2e9; padding: 10px; border-radius: 5px;">
-  <strong>Note:</strong> This repository provides a foundational implementation of LSTM networks, focusing on building, training, and testing the model using PyTorch. The code is designed as an educational exercise and is not intended to match state-of-the-art (SOTA) performance. It aims to offer insight into the workings of a basic LSTM, helping those new to the field understand its fundamental principles and how to implement it from scratch.
-</div>
+> **⚠️ Note:**  
+> This repository provides a foundational implementation of LSTM networks, focusing on building, training, and testing the model using PyTorch.  
+> The code is designed as an educational exercise and is not intended to match state-of-the-art (SOTA) performance.  
+> It aims to offer insight into the workings of a basic LSTM, helping those new to the field understand its fundamental principles and how to implement it from scratch.
+
 
 
 # Questions
