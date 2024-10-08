@@ -19,9 +19,7 @@ faster convergence. The project revolves around the solution of some
 questions.
 
 > **⚠️ Note:**  
-> This repository provides a foundational implementation of LSTM networks, focusing on building, training, and testing the model using PyTorch.  
-> The code is designed as an educational exercise and is not intended to match state-of-the-art (SOTA) performance.  
-> It aims to offer insight into the workings of a basic LSTM, helping those new to the field understand its fundamental principles and how to implement it from scratch.
+> This repository provides a foundational implementation of LSTM networks, focusing on building, training, and testing the model using PyTorch. The code is designed as an educational exercise and is not intended to match state-of-the-art (SOTA) performance.It aims to offer insight into the workings of a basic LSTM, helping those new to the field understand its fundamental principles and how to implement it from scratch.
 
 
 
