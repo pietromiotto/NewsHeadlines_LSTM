@@ -1,9 +1,3 @@
----
-author:
-- "name: NAME SURNAME, email: name.surname@usi.ch"
-date: "**Deadline**: 10 Dec 2023 - 11.59pm"
-title: Assignment 3
----
 
 # Language models with LSTM
 
@@ -24,7 +18,12 @@ Furthermore, the project employs Truncated Backpropagation Through Time
 faster convergence. The project revolves around the solution of some
 questions.
 
-# Questions {#questions .unnumbered}
+<div style="border: 2px solid #f39c12; background-color: #fdf2e9; padding: 10px; border-radius: 5px;">
+  <strong>Note:</strong> This repository provides a foundational implementation of LSTM networks, focusing on building, training, and testing the model using PyTorch. The code is designed as an educational exercise and is not intended to match state-of-the-art (SOTA) performance. It aims to offer insight into the workings of a basic LSTM, helping those new to the field understand its fundamental principles and how to implement it from scratch.
+</div>
+
+
+# Questions
 
 ## Data
 
@@ -112,7 +111,7 @@ Generate 2-3 sentences using both sampling strategies:
 
 Comment on the quality of the generated titles. Are they credible?
 
-# Report {#report .unnumbered}
+# Report 
 
 ## Data
 
@@ -823,38 +822,18 @@ if (epoch == num_epochs):
     word they are made of, means that embedding is working well, except
     for how it handles the the `’<EOS>’` token.
 
-## Bonus question\* (5 points)
-
-Not addressed
-
-# Questions \[5 points\]
-
-In short, BPE (Byte-Pair Encoding) is a simple form of data compression
-algorithm in which the most common pair of consecutive bytes of data is
-replaced with a byte that does not occur in that data. This process
-iterates until the vocabulary has attained the desired vocabulary size.
-The most important thing to understand, is that BPE ensures that the
-most common words are represented in the vocabulary as a single token
-while the rare words are broken down into two or more subword tokens and
-this is in agreement with what a subword-based tokenization algorithm
-does. WordPiece operates more or less like BPE, the main difference is
-that WordPiece does not choose the most frequent symbol pair, but the
-one that maximizes the likelihood of the training data once added to the
-vocabulary.
-
 # Images
 
 ![Transposed first 3 entries of the panda
-dataframe](images/head(3)_2.png){#fig:image1 width="80%"}
+dataframe](images/head(3)_2.png)
 
 ![Plot of the loss during classic
-training](images/trainloss.png){#fig:image4 width="80%"}
+training](images/trainloss.png)
 
 ![Plot of perplexity during classic
-training](images/trainperplexity.png){#fig:image5 width="80%"}
+training](images/trainperplexity.png)
 
-![Plot of loss during TBBTT training](images/tbtttrain.png){#fig:image6
-width="80%"}
+![Plot of loss during TBBTT training](images/tbtttrain.png)
 
 ![Plot of perplexity during TBBTT
-training](images/tbbttperplexity.png){#fig:image7 width="80%"}
+training](images/tbbttperplexity.png)
